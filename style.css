@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*=============================================
+=            Typography            =
+=============================================*/
+
+:root {
+  --primary-bg-color: rgba(46, 46, 46, 1);
+  --deep-light: rgba(255, 255, 255, 1);
+  --deep-dark: rgba(0, 0, 0, 1);
+  --primary-font-family: "Inter", sans-serif;
+  --primary-fz: 1.875px;
+  --default-width: 815px;
+}
+body {
+  font-family: var(--primary-font-family);
+  background-color: var(--deep-light);
+}
+h1 {
+  color: var(--deep-light);
+}
+
+h2,
+h4 {
+  color: var(--primary-bg-color);
+}
+h3 {
+  color: var(--deep-light);
+  font-size: 25px;
+}
+h4 {
+  font-size: 20px;
+}
+.ds_fs_18 {
+  font-size: 18px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  font-weight: 400;
+  font-family: var(--primary-font-family);
+}
+ul {
+  list-style-type: none;
+}
+.ds_fs_15 {
+  font-size: 15px;
+}
+.ds_fs_14 {
+  font-size: 14px;
+}
+.ds_fs_12 {
+  font-size: 12px;
+}
+.ds_fs_18 {
+    font-size: 18px;
+  }
+.ds_fs_35 {
+  font-size: 35px;
+}
+.btn {
+  border: 1px solid var(--deep-dark);
+  padding: 6px 19px;
+}
+a {
+  text-decoration: none;
+}
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/*=====  End of Typography  ======*/
+
+/*=============================================
+=            Header            =
+=============================================*/
+body {
+  /* width: 815px; */
+}
+a:hover {
+  transition: 0.4s all ease-in-out;
+}
+header {
+  background-color: var(--primary-bg-color);
+  color: var(--deep-light);
+}
+/* logo */
+
+.ds_logo_wrapper.logo_header h2 {
+  color: #fff;
+}
+header > nav {
+  width: var(--default-width);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 73px;
+  margin: 0 auto;
+}
+header > nav ul.nav_list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header > nav ul.nav_list li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 0 12px;
+  color: var(--deep-light);
+}
+header > nav ul.nav_list li:hover a {
+  opacity: 0.8;
+}
+header > nav ul.nav_list_right {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header > nav ul.nav_list_right li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.btn_signup {
+  border-color: var(--deep-light);
+  background-color: var(--deep-light);
+  border-radius: 10px;
+  color: var(--primary-bg-color);
+  font-size: 18px;
+}
+.btn_signup:hover {
+  /* opacity: 0.8; */
+  background-color: transparent;
+
+  color: var(--deep-light);
+  /* border-color: ; */
+}
+
+/*=====  End of Header  ======*/
+
+/*=============================================
+=            Hero            =
+=============================================*/
+section.ds_hero {
+  background: url("./assets/imgs/bg.png") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 461px;
+}
+
+.ds_hero > .ds_content {
+  width: var(--default-width);
+  margin: 0 auto;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.ds_content .ds_social ul.ds_hero_social {
+}
+.ds_right_content p.ds_para {
+  color: var(--deep-light);
+}
+.ds_right_content h2.ds_hero_title {
+  color: var(--deep-light);
+}
+
+a.ds_learn_more {
+  display: inline-block;
+  background-color: var(--deep-light);
+  border-color: var(--deep-light);
+  color: var(--deep-dark);
+  border-radius: 10px;
+}
+/*=====  End of Hero  ======*/
