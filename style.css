@@ -378,3 +378,58 @@ form.newsletter_form button {
 }
 
 /*=====  End of Footer  ======*/
+@media screen and (max-width: 900px) {
+  /* Footer */
+  .widgets {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 814px) {
+  header > nav,
+  .ds_hero > .ds_content,
+  section.ds_learn_with_us .ds_learn_with_us_innter,
+  section.ds_our_team .ds_our_team_innter,
+  .foot_inner {
+    width: 98% !important;
+  }
+
+  .ds_cards {
+    flex-direction: column;
+  }
+  .ds_cards .ds_card {
+    margin-bottom: 40px;
+  }
+  section.ds_learn_with_us .ds_learn_with_us_innter .ds_icon_warp img {
+    left: 45%;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .team_cards {
+    display: block !important;
+  }
+  .ds_team_card {
+    margin-bottom: 25px;
+  }
+  section.ds_learn_with_us .ds_learn_with_us_innter .ds_icon_warp img {
+    left: 42%;
+  }
+  .widgets {
+    display: block !important;
+    margin: 0 auto;
+    width: 35%;
+  }
+  .widget {
+    margin-bottom: 30px;
+  }
+  .widget .heading {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 576px) {
+  /* .team_cards {} */
+  section.ds_learn_with_us .ds_learn_with_us_innter .ds_icon_warp img {
+    left: 42%;
+  }
+}
